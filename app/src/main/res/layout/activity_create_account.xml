@@ -67,6 +67,7 @@
         android:layout_width="110dp"
         android:layout_height="110dp"
         android:layout_marginTop="24dp"
+        android:onClick="avatarClick"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
@@ -79,8 +80,10 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="32dp"
+        android:onClick="generateClick"
         android:text="generate background color"
         app:backgroundTint="@color/evergreen"
+        app:layout_constraintBottom_toTopOf="@+id/signUpCreateAccountBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/signUpAvatar" />
