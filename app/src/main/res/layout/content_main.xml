@@ -49,7 +49,7 @@
         android:layout_height="34dp"
         android:background="@android:color/transparent"
         android:onClick="sendMsgBtnClick"
-        android:tint="@color/purple_700"
+        android:tint="@color/evergreen"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/typeMessageField"

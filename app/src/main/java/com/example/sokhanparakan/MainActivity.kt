@@ -1,5 +1,6 @@
 package com.example.sokhanparakan
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import com.google.android.material.navigation.NavigationView
@@ -38,7 +39,10 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
-        binding.navDrawerHeaderInclude.loginBtnNavH.setOnClickListener {  }
+        binding.navDrawerHeaderInclude.loginBtnNavH.setOnClickListener {
+            var loginBtnIntent = Intent(this, LoginActivity::class.java)
+            startActivity(loginBtnIntent)
+        }
 
         binding.navDrawerHeaderInclude.addChannelBtn.setOnClickListener {  }
 
