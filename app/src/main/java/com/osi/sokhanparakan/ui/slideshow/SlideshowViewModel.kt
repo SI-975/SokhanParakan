@@ -1,4 +1,4 @@
-package com.example.sokhanparakan.ui.slideshow
+package com.osi.sokhanparakan.ui.slideshow
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

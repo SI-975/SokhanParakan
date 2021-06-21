@@ -1,9 +1,9 @@
-package com.example.sokhanparakan
+package com.osi.sokhanparakan.controller
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.sokhanparakan.databinding.ActivityLoginBinding
+import com.osi.sokhanparakan.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity() {
     lateinit var loginActBining: ActivityLoginBinding

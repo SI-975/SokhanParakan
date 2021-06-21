@@ -1,4 +1,4 @@
-package com.example.sokhanparakan
+package com.osi.sokhanparakan
 
 import org.junit.Test
 

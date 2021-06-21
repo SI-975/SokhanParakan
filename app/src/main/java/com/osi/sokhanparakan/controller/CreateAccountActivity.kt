@@ -1,11 +1,10 @@
-package com.example.sokhanparakan
+package com.osi.sokhanparakan.controller
 
-import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
-import com.example.sokhanparakan.databinding.ActivityCreateAccountBinding
+import com.osi.sokhanparakan.databinding.ActivityCreateAccountBinding
 import java.util.*
 
 class CreateAccountActivity : AppCompatActivity() {
@@ -34,7 +33,6 @@ class CreateAccountActivity : AppCompatActivity() {
         val random = Random()
         val colorHex = random.nextInt(0xffffff + 1)*(-1)
         binding.signUpAvatar.setBackgroundColor(colorHex)
-        Toast.makeText(this, "$colorHex",Toast.LENGTH_SHORT).show()
         avatarColor = "$colorHex"
     }
 }

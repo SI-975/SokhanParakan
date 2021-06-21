@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "600490346982",
+    "project_id": "sokhanparakan",
+    "storage_bucket": "sokhanparakan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600490346982:android:a7ed9eedbd84648b9fee27",
+        "android_client_info": {
+          "package_name": "com.osi.sokhanparakan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600490346982-bh0bnjrgu3bvnobbq4ml6fuctcr8crer.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIFUlVdAFibWXySxMutvwpJVBRFjSU63g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600490346982-bh0bnjrgu3bvnobbq4ml6fuctcr8crer.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
